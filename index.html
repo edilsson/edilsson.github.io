@@ -1,20 +1,149 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="es">
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>EdilssonBravo</title>
-
+        <meta charset="utf-8">
+        <meta content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="static/img/favicon.png">
+        
+        <link rel="stylesheet" href="static/css/bootstrap.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="static/css/main.css">
+        <link rel="stylesheet" href="static/css/fa/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+        <script src="static/js/jquery.easing.compatibility.js"></script>
+        <script src="static/js/jquery.easing.1.3.js"></script>
+        <script src="static/js/jquery.visible.min.js"></script>
+        <script src="static/js/site.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Raleway:700,400|Cinzel' rel='stylesheet'>
     </head>
-    <body align="center">
-        <div id="header"></div>
-        <div id="content"></div>
-        <div id="footer"></div>
-        <img src="EB.jpg" alt="">
-        <h1>EdilssonBravo</h1>
-        <p>Under construction</p>
-        <p>Contact: yo@edilssonbravo.me</p>
-        <p>(+56-9) 872 362 59</p>
+
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#home">
+                  <img src="static/img/EBP.png" alt="EdilssonBravo" />
+              </a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li id="home_btn" class="trans active"><a href="#home">Home</a></li>
+                <li id="blog_btn" class="trans"><a href="http://blog.edilssonbravo.me">Blog</a></li>
+                <li id="interests_btn" class="trans" ><a href="#interests">Interests</a></li>
+                <li id="projects_btn" class="trans" ><a href="#projects">Projects</a></li>
+                <li id="about_btn" class="trans" ><a href="#about">Personal</a></li>
+                <li id="contact_btn" class="trans"><a href="#contact">Contact Me</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a class="navbar-brand" href="#"><img src="static/img/EN.png" alt="English"/></a></li>
+                <li><a class="navbar-brand" href="#"><img src="static/img/ES.png" alt="Espanol"/></a></li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div>
+        </nav>
+      
+      <div id="allsite">
+          <div id="scroller">
+              <div class="left"><i class="fa fa-chevron-left fa-4x"></i></div>
+              <div class="right"><i class="fa fa-chevron-right fa-4x"></i></div>
+          </div>
+        
+        <section id="home">
+          <div class="jumbotron">
+            <div class="container">
+              <div class="leftblock">
+                <figure>
+                  <img src="static/img/EBP.png" alt="EdilssonBravo">
+                </figure>
+              </div>
+              <div class="rightblock">
+                <span class="eng">
+                  <h1>Hi!</h1><p> My name is <b>Edilsson Bravo</b>. I'm a student in Civil Engineering in Computer Science on Federico Santa María Technical University (UTFSM)</p>
+                  <p>This is my personal website, in which you can find info about projects where I have worked and ways to contact me.</p>
+                  <p>I'm interested in <b>Software Development</b> area, App development for <b>Android & iOS</b>, <b>DBMS</b> and Web development.</p>
+                  <p>Feel free to <a href="#contact">contact me</a> if you have any questions.</p>
+                </span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="interests">
+          <div class="container">
+            <h1>Interests</h1>
+          </div>
+        </section>
+
+        <section id="projects">
+            <h1 align="center">My Projects</h1>
+            <div class="container">
+              <div id="titles">
+                <h2 id="tit_br">BuscoRegalo</h2>
+                <h2 id="tit_sdt">SuperDT</h2>
+                <h2 id="tit_crh">CanteroRH</h2>
+                <h2 id="tit_andr">Android Personal Projects</h2>
+              </div>
+              <div class="project br"><span class="color"><span class="center"></span><span class="text">Busco
+                Regalo</span></span></div>
+              <div class="project sdt"><span class="color"><span class="center"></span><span class="text">SuperDT</span></span></div>
+              <div class="project crh"><span class="color"><span class="center"></span><span class="text">CanteroRH</span></span></div>
+              <div class="project andr"><span class="color"><span class="center"></span><span class="text">Android</span></span></div>
+
+              <h3 class="frame-1">It was a project developed for a class called <b>"Software Development Workshop"</b> on 2012. Was based on Ruby on Rails and ported to Android vía PhoneGap</h3>
+
+              <h3 class="frame-2">Under construction</h3>
+              <h3 class="frame-3">Under construction</h3>
+              <h3 class="frame-4">A bunch of personal projects on development using Android Studio. Hopefully on the future, will be published</h3>
+            </div>
+
+        </section>
+
+        <section id="about">
+          <div class="container">
+            <h1 align="center">About Myself</h1>
+            <p>I was born in 1991, when Chile returned to democracy and there was still a hangover throughout the country from obtaining the Copa Libertadores (Vamos Colo Colo!).</p>
+            <p>I am a very dedicated, hardworking and proactive person who always tries to give 100% at every task. I try to be a better person every day and to learn from those who are more experienced.</p>
+            <p>When I was a kid, I was happy just by playing football on the street with my friends or playing PC games like Need For Speed, Quake, Age of Empires, and many more all day.</p>
+            <p>Over the years I stayed away from games and was more interested in different things related to this area: video editing, mixing music, PC formatting, install software, photo editing, etc. That way, I was never bored on my PC, mostly because I always tried to do something new for me, and I always liked that challenge, so, at the end of the day, computer engineering was the obvious choice.</p>
+            <p>I love football (watching and playing, although I'm not very good on this last one), having BBQs with friends & family, go to the movies, and hopefully on the future, begin my own adventure with my family.</p>
+            <p>So, that's all about me that I can say right now! If you feel the need of knowing more about me, why don't contact me?</p>
+          </div>
+        </section>
+
+        <section id="contact">
+          <div class="container">
+            <h1 align="center">Contact</h1>
+            <h3 align="center">If you want/need to contact me, please fill out this form, and I will try to answer you the soonest possible!</h3>
+
+            <form method="post" action="#" id="contactform">
+              <div class="form-group has-success has-feedback">
+                <input type="text" class="form-control input-lg" placeholder="Your name here" aria-describedby="inputSuccess2Status" required>
+                <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+                <span id="inputSuccess2Status" class="sr-only">(success)</span>
+                <input type="text" class="form-control input-lg" placeholder="Your mail here" required>
+              
+                <textarea class="form-control" rows="5" placeholder="Place your message here" required></textarea>
+             
+                <p><button type="submit" class="btn btn-default btn-lg btn-block">Submit!</button></p>
+
+              </div>
+            </form>
+
+            <h3 align="center">(Or, you can check me out on one of my social media pages.)</h3>
+              
+          </div>
+        </section>
+      </div>
     </body>
 </html>
+
